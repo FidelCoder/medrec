@@ -1,0 +1,57 @@
+:root {
+	--pink: #de3c60;
+	--white: #fff;
+	--black: #000;
+	--lightPink: #f09bad;
+}
+
+.sidebar_wrapper {
+	display: flex;
+	width: 240px;
+	height: 100vh;
+	flex-direction: column;
+	padding: 20px 10px;
+	/* background-color: #003459; */
+	background-color: var(--pink);
+	overflow: hidden;
+}
+
+.logoDiv {
+	height: 50px;
+	padding: 0 20px;
+	padding-left: 25px;
+	font-size: 25px;
+	font-weight: 600;
+	color: white;
+}
+
+.sidebarList {
+	padding: 0 8px;
+	list-style-type: none;
+}
+
+.sidebarList li {
+	margin: 10px 0;
+}
+
+.sidebarList li div {
+	display: flex;
+	flex-direction: row;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 20px;
+}
+
+.sidebarList li div:hover,
+.active {
+	background-color: #f09bad;
+	cursor: pointer;
+}
+
+.sidebarList li div .listIcon {
+	margin-right: 10px;
+}
+
+.sidebarList li div a {
+	color: white;
+}
